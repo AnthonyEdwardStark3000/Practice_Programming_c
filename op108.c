@@ -1,0 +1,18 @@
+#include<stdio.h>
+void display(int);
+int main(){
+display(60);
+display(80);
+display(40);
+display(70);
+display(20);
+return 0;
+}
+
+void display(int n){
+int p=2; // p =2
+p++; // 2++ -> 3
+printf("\n p Value :%d\t n value :%d",p,n);
+}
+
+
