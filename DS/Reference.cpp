@@ -1,12 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-int a =20;
-int &b =a;
-int c =30;
+int a =100;
+int &b = a;
+cout<<"A:"<<a<<"\t"<<"B:"<<b<<endl;
+int c = 90;
 b=c;
-cout<<"A :"<<a<<endl<<"B :"<<b<<endl<<"C :"<<c<<endl;
-cout<<"Addresses :"<<endl;
-cout<<"A :"<<&a<<endl<<"B :"<<&b<<endl<<"C :"<<&c<<endl;
+cout<<"A:"<<a<<"\t"<<"B:"<<b<<"\t"<<"C:"<<c;
 return 0;
 }
